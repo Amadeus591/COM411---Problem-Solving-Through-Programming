@@ -1,0 +1,8 @@
+print("Please enter characters for the eyes.")
+eye = input()
+print("Beep's expression is now as follows.")
+print()
+print("##########")
+print(f"#  {eye}  {eye}  #")
+print("#  ----  #")
+print("##########")
