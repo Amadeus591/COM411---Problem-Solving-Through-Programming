@@ -1,7 +1,7 @@
-print("How many bars shoud be charged?")
+print("How many cables should I remove?")
 n = int(input())
-i = 0 
+i = 0
+print()
 while (i < n):
+  print("Removed cable.")
   i = i + 1
-  print("Charging:", "^" * i)
-print("\nBattery fully charged.")

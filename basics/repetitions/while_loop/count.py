@@ -1,7 +1,7 @@
-print("How many cables should I remove?")
-n = int(input())
+print("How many cables should I avoid?")
+a = int(input())
 i = 0
-print()
-while (i < n):
-  print("Removed cable.")
+while (i < a):
   i = i + 1
+  print("Avoiding...done!", i, "live cables avoided.")
+print("\nAll live cables have been avoided.")
